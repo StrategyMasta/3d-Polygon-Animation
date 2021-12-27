@@ -75,6 +75,10 @@ function generatePlane() {
     clInd = [];
 }
 
+window.addEventListener("resize", function() {
+    location.reload(true);
+});
+
 /*for(var i = 0; i < 15; i++) {
 	let index = Math.floor((Math.random() * 400 * 3));
 	index -= index % 3;
